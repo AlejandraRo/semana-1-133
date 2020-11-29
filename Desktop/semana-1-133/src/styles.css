@@ -3,9 +3,9 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .container{
-    width:1800px;
+    width:1900px;
     background-color:#f8d1cd ;
-    height:2000px;
+    height:2300px;
     -ms-flex-align: center;
     align-self:center;
     margin: 0;
@@ -62,23 +62,23 @@ body{
     
 }
 .section-1{
-    width: 1800px;
+    width: 1900px;
     height: 600px;
     background-color: rgb(224, 156, 77);
 }
 .section-2{
-    width: 1800px;
+    width: 1900px;
     height:600px;
     background-color: rgb(182, 72, 158);
 }
 .section-3
 {
-    width: 1800px;
+    width: 1900px;
     height: 600px;
     background-color: rgb(197, 114, 81);
 }
 .footer{
-    width:1800px;
+    width:1900px;
     height: 500px;
     background-color: rgb(128, 198, 219);
     bottom: 20px;
@@ -91,7 +91,7 @@ body{
     text-align: center;
 }
 .col-3{
-    width: 580px;
+    width: 32%;
     height: 470px;
     background-color: rgb(241, 223, 139);
     display: inline-block;
@@ -100,7 +100,7 @@ body{
     text-align: center;
 }
 .col-5{
-    width: 880px;
+    width: 360px;
     height: 400px;
     display: inline-block;
     margin-left: 8px;
@@ -108,7 +108,7 @@ body{
     background-color: rgb(255, 177, 148);
 }
 .col-6{
-    width:870px;
+    width:48%;
     height: 450px;
     background-color: rgb(55, 115, 143);
     display: inline-block;
@@ -148,12 +148,14 @@ body{
 }
 
 .news-data{
-    width: 900px;
+    width: 50%;
     height: 100%;
     background-color: rgb(182, 160, 204);
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; 
+    margin-left: 10px;
+    margin-right: 30px;
 }
 
 .news-image{
