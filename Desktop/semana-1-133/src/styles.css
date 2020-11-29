@@ -1,0 +1,218 @@
+body{
+    margin-top:5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    width:1800px;
+    background-color:#f8d1cd ;
+    height:400px;
+    -ms-flex-align: center;
+    align-self:center;
+    margin: 0;
+    padding:0;
+}
+.header{
+    background-color: #F7DC6F;
+    height: 200px;
+}
+.container-menu{
+    height: 80px;
+    background-color: #ac713e;
+    display: -webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    width: 100%;
+}
+.container-logo{
+    width: 100%;
+    height: 100px;
+    background-color:#FADBD8  ;
+    text-align: center;
+    bottom:100px;
+}
+.site-title{
+    margin:5px;
+    padding: 0.50em 0;
+}
+.container-imagen{
+    background-image: url('./luces.jpg');
+    height: 200px;
+}
+.nav-list{
+    padding:0.36em 0;
+    list-style-type: upper-alpha;
+    text-align: end;
+    width: 100%;
+}
+.nav-element{
+    padding:1em 15px;
+    display: inline-block;
+    text-decoration: black;
+    color: blueviolet;
+}
+.nav-element:hover{
+    text-decoration: underline;
+    font-weight: lighter;
+}
+.image-text{
+    margin:0;
+    padding:9% 0;
+    text-align: center;
+    color: white;
+    
+}
+.section-1{
+    width: 1800px;
+    height: 600px;
+    background-color: rgb(224, 156, 77);
+}
+.section-2{
+    width: 1800px;
+    height:600px;
+    background-color: rgb(182, 72, 158);
+}
+.section-3
+{
+    width: 1800px;
+    height: 600px;
+    background-color: rgb(197, 114, 81);
+}
+.footer{
+    width:1800px;
+    height: 500px;
+    background-color: rgb(128, 198, 219);
+    bottom: 20px;
+}
+.section-text{
+    margin:0;
+    color:#030303;
+    background:#f8d1cd ;
+    font-weight: bolder;
+    text-align: center;
+}
+.col-3{
+    width: 580px;
+    height: 470px;
+    background-color: rgb(241, 223, 139);
+    display: inline-block;
+    padding: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+.col-5{
+    width: 880px;
+    height: 470px;
+    display: inline-block;
+    margin-left: 8px;
+    text-align: center;
+    background-color: rgb(255, 177, 148);
+}
+.col-6{
+    width:870px;
+    height: 450px;
+    background-color: rgb(55, 115, 143);
+    display: inline-block;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.service-content{
+    padding: 0.5em 0;
+}
+.service-text{
+    padding: 10px;
+    text-align: justify;
+    bottom: 0;
+}
+
+.service-text.members{
+    font-style: italic;
+}
+
+.section-news > div:first-child{
+    margin-bottom: 2px; 
+}
+.news{
+    width: 100%;
+    background-color: rgb(214, 176, 208);
+    height: 240px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.news > div:first-child{
+    margin: 0 6px;
+}
+
+.news-data{
+    width: 49%;
+    height: 100%;
+    background-color: rgb(182, 160, 204);
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex; 
+}
+
+.news-image{
+    margin: 10px 0;
+    padding: 0 40px;
+    /*color: white;*/
+}
+
+.news-text{
+    color: rgb(22, 21, 21);
+    text-align: justify;
+    width: 49%;
+    padding: 1em 0;
+}
+
+.news-text > span.news-url{
+    text-align: right;
+}
+
+
+.fa-ambulance.news-logo{
+    padding: 0.25em 0;
+}
+
+
+.news-url{
+    font-size: 10px;
+    float: right;
+}
+
+.news-url > a{
+
+    color: #0f0c0c; 
+}
+
+hr{
+    color: rgb(27, 26, 26);
+}
+
+.main-menu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-menu__item{
+    line-height: 3;
+}
+
+.main-menu__link{
+    text-decoration: none;
+    font-size: 1em;
+    color: #202020;
+}
+
+.main-menu__link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
