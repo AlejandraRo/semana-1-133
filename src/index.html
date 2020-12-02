@@ -1,172 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sprint 1</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
+
 <body>
+    <!-- nav: inicio, noticias servicios, equipo -->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navigation" id="navbarNavAltMarkup">
+              <div class="navbar-nav font-weight-bold">
+                <a class="nav-item nav-link" href="#">Inicio</a>
+                <a class="nav-item nav-link" href="#">Noticias</a>
+                <a class="nav-item nav-link" href="#">Servicios</a>
+                <a class="nav-item nav-link" href="#">Equipo</a>
+              </div>
+            </div>
+          </nav>
+        <div class="jumbotron text-left imagen-fondo">
+            <h1>Bienvenidos</h1>
+        </div>
+    </header>
+
     <div class="container">
-        <div class="container_menu">
-            <div class="container-logo">
-                <h1 class="site-title">Sprint 1</h1>
-            </div>
-            <nav class="nav-list">
-                <ul class="main-menu">
-                    <li class="main-menu_item">
-                        <a href="#" class="main-menu__link"><b>Inicio</b></a>
-                    </li>
-                    <li class="main-menu_item">
-                        <a href="#services" class="main-menu__link"><b>Servicios</b></a>
-                    </li>
-                    <li class="main-menu_item">
-                        <a href="#news" class="main-menu__link"><b>Noticias</b></a>
-                    </li>
-                    <li class="main-menu_item">
-                        <a href="#team" class="main-menu__link"><b>Equipo</b></a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="container-imagen">
-            <h1 class="image-text"> BIENVENIDO</h1>
-        </div>
-   
-    <section id="services">
-        
-        <p class="section-text">Servicios</p>
-        <div class="col-3">
-            <p>
-
-                <i class="fas fa-award" style="font-size:200px"></i>
-            </p>
-            <div class="service-content">
-
-                <h1>
-                    Software contable
-                </h1>
-                <p class="service-text">
-                    Este software contable creado para pequeñas y medianas empresas, permite un fácil manejo del sistema
-                    contable para todas ellas, por otra parte es de bajo costo y tiene muchas opciones que facilitan la vida
-                    de los emprendedores del país
-                </p>
-                <span class="news-url"><a href="https://www.alegra.com/colombia/caracteristicas/">Visita el sitio de alegra.com>></a></span>
-            </div>
-        </div>
-        <div class="col-3">
-            <p>
-
-                <i class="fas fa-broadcast-tower" style="font-size:200px"></i>
-            </p>
-            <div class="service-content">
-
-                <h1>
-                    Internet de fibra óptica
-                </h1>
-                <p class="service-text">
-                    El internet de google, Fiber es la mejor solución para poder acceder a internet desde cualquier ubicación 
-                    a grandes velocidades de banda ancha, con este servicio podrás tener señal Wi-Fi por toda tu casa, ademas no 
-                    experimentaras retrasos tanto al subir como descargar archivos
-                </p>
-                <span class="news-url"><a href="https://fiber.google.com/intl/es/internet/">Adquierelo aqui>></a></span>
-            </div>
-        </div>
-        <div class="col-3">
-            <p>
-
-                <i class="fas fa-cogs" style="font-size:200px"></i>
-            </p>
-            <div class="service-content">
-
-                <h1>
-                    Configuracion de software
-                </h1>
-                <p class="service-text">
-                    Te ofrecemos la instalación de cualquier software en los dispositivos de tu vivienda y oficina, cumplimos con todas
-                    las reglamentaciones y te brindamos la capacitación para el manejo adecuado de los programas. No dudes en adquirir nuestros
-                    paquetes, garantizamos sus funciones.
-                </p>
-                <span class="news-url"><a href="https://www.juroga.com/5-aplicaciones-imprescindibles-para-tu-oficina/">Todos los software que instalamos >></a></span>
-            </div>
-        </div>
-    
-    </section>
-
-    <section id="news">
-        
-        <p class="section-text">Noticias</p>
-        <div class="section-news">
-
-            <div class="news">
-                <div class="news-data">
-                    <div class="news-image">
-                        <img src="img/vacuna.jpg">
-                        <i style="font-size:150px"></i>
+        <section id="services">
+            <div class="container">
+                <h2>Servicios</h2>
+                <div class="row">
+                    <div class="col-sm">
+                        <h1>
+                            Software contable
+                        </h1>
+                        <p class="service-text">
+                            Este software contable creado para pequeñas y medianas empresas, permite un fácil manejo del
+                            sistema
+                            contable para todas ellas, por otra parte es de bajo costo y tiene muchas opciones que
+                            facilitan
+                            la vida
+                            de los emprendedores del país
+                        </p>
+                        <span class="news-url"><a href="https://www.alegra.com/colombia/caracteristicas/">Visita el
+                                sitio de
+                                alegra.com>></a></span>
                     </div>
-                    <div class="news-text">
-                        <h2 class="news-title">Vacuna contra el coronavirus</h2>
-                        <hr>
-                        <p class="news-info" style="margin:0; padding:0;">A pesar de que cada día se habla de nuevas
-                            vacunas contra el coronavirus, aún es lejano volver a la antigua normalidad. Incluso si se desarrolla
-                        una vacuna efectiva, tardaría mucho un país en aplicarla a toda su población.</p>
-                        <span class="news-url"><a href="https://www.bbc.com/mundo/noticias-55058162">Leer noticia completa >></a></span>
+                    <div class="col-sm">
+                        <h1>
+                            Internet de fibra óptica
+                        </h1>
+                        <p class="service-text">
+                            El internet de google, Fiber es la mejor solución para poder acceder a internet desde
+                            cualquier
+                            ubicación
+                            a grandes velocidades de banda ancha, con este servicio podrás tener señal Wi-Fi por toda tu
+                            casa, ademas no
+                            experimentaras retrasos tanto al subir como descargar archivos
+                        </p>
+                        <span class="news-url"><a href="https://fiber.google.com/intl/es/internet/">Adquierelo
+                                aqui>></a></span>
+                    </div>
+                    <div class="col-sm">
+                        <h1>
+                            Configuracion de software
+                        </h1>
+                        <p class="service-text">
+                            Te ofrecemos la instalación de cualquier software en los dispositivos de tu vivienda y
+                            oficina,
+                            cumplimos con todas
+                            las reglamentaciones y te brindamos la capacitación para el manejo adecuado de los
+                            programas. No
+                            dudes en adquirir nuestros
+                            paquetes, garantizamos sus funciones.
+                        </p>
+                        <span class="news-url"><a
+                                href="https://www.juroga.com/5-aplicaciones-imprescindibles-para-tu-oficina/">Todos los
+                                software que instalamos >></a></span>
                     </div>
                 </div>
-                <div class="news-data">
-                    <div class="news-image">
-                        <img src="img/bf.png">
-                        <i style="font-size:150px"></i>
+            </div>
+        </section>
+
+        <section id="news">
+
+            <p class="section-text">Noticias</p>
+            <div class="section-news">
+
+                <div class="news">
+                    <div class="news-data">
+                        <div class="news-image">
+                            <img src="img/vacuna.jpg">
+                            <i style="font-size:150px"></i>
+                        </div>
+                        <div class="news-text">
+                            <h2 class="news-title">Vacuna contra el coronavirus</h2>
+                            <hr>
+                            <p class="news-info" style="margin:0; padding:0;">A pesar de que cada día se habla de nuevas
+                                vacunas contra el coronavirus, aún es lejano volver a la antigua normalidad. Incluso si
+                                se desarrolla
+                                una vacuna efectiva, tardaría mucho un país en aplicarla a toda su población.</p>
+                            <span class="news-url"><a href="https://www.bbc.com/mundo/noticias-55058162">Leer noticia
+                                    completa >></a></span>
+                        </div>
                     </div>
-                    <div class="news-text">
-                        <h2 class="news-title">Black Friday 2020</h2>
-                        <hr>
-                        <p class="news-info" style="margin:0; padding:0;">En varios países se celebra este día de descuentos, debido a la pandemia
-                            muchas personas realizan las compras por vía online, se espera poder tener una recuperación en la economía debido 
-                            a las grandes pérdidas monetarias que propiciaron el desempleo.</p>
-                        <span class="news-url"><a href="https://www.bbc.com/mundo/noticias-46297449">Leer noticia completa >></a></span> </div>
+                    <div class="news-data">
+                        <div class="news-image">
+                            <img src="img/bf.png">
+                            <i style="font-size:150px"></i>
+                        </div>
+                        <div class="news-text">
+                            <h2 class="news-title">Black Friday 2020</h2>
+                            <hr>
+                            <p class="news-info" style="margin:0; padding:0;">En varios países se celebra este día de
+                                descuentos, debido a la pandemia
+                                muchas personas realizan las compras por vía online, se espera poder tener una
+                                recuperación en la economía debido
+                                a las grandes pérdidas monetarias que propiciaron el desempleo.</p>
+                            <span class="news-url"><a href="https://www.bbc.com/mundo/noticias-46297449">Leer noticia
+                                    completa >></a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="news">
+                    <div class="news-data">
+
+                        <div class="news-image">
+                            <img src="img/biden.jpg">
+                            <i style="font-size:150px"></i>
+                        </div>
+                        <div class="news-text">
+                            <h2 class="news-title">Las nominaciones de Biden al gabinete</h2>
+                            <hr>
+                            <p class="news-info" style="margin:0; padding:0;">Joe Biden empezó a definir su equipo de
+                                trabajo, lo que sorprende al mundo
+                                es el anuncio sobre que un inmigrante cubano va a ser el secretario de Seguridad
+                                Nacional Interior, quien manejará el asunto de los migrantes ilegales que ingresan al
+                                país</p>
+                            <span class="news-url"><a
+                                    href="https://www.bbc.com/mundo/noticias-internacional-55053735">Leer noticia
+                                    completa >></a></span>
+                        </div>
+                    </div>
+                    <div class="news-data">
+
+                        <div class="news-image">
+                            <img src="img/cohete.jpg">
+                            <i style="font-size:150px"></i>
+                        </div>
+                        <div class="news-text">
+                            <h2 class="news-title">China envia misión a la Luna para traer rocas a la Tierra</h2>
+                            <hr>
+                            <p class="news-info" style="margin:0; padding:0;">China ha enviado una sonda para traer
+                                rocas lunares con el fin de estudiarlas en el planeta, se espera que la sonda regrese
+                                a mediados de diciembre, además China espera convertirse en la tercera nación a nivel
+                                mundial en lograr esta hazaña bastante compleja</p>
+                            <span class="news-url"><a href="https://www.bbc.com/mundo/noticias-55061666">Leer noticia
+                                    completa >></a></span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <div class="news">
-                <div class="news-data">
 
-                    <div class="news-image">
-                        <img src="img/biden.jpg">
-                        <i style="font-size:150px"></i>
-                    </div>
-                    <div class="news-text">
-                        <h2 class="news-title">Las nominaciones de Biden al gabinete</h2>
-                        <hr>
-                        <p class="news-info" style="margin:0; padding:0;">Joe Biden empezó a definir su equipo de trabajo, lo que sorprende al mundo
-                        es el anuncio sobre que un inmigrante cubano va a ser el secretario de Seguridad Nacional Interior, quien manejará el asunto de los migrantes ilegales que ingresan al país</p>
-                        <span class="news-url"><a href="https://www.bbc.com/mundo/noticias-internacional-55053735">Leer noticia completa >></a></span> </div>
-                </div>
-                <div class="news-data">
 
-                    <div class="news-image">
-                        <img src="img/cohete.jpg">
-                        <i style="font-size:150px"></i>
-                    </div>
-                    <div class="news-text">
-                        <h2 class="news-title">China envia misión a la Luna para traer rocas a la Tierra</h2>
-                        <hr>
-                        <p class="news-info" style="margin:0; padding:0;">China ha enviado una sonda para traer rocas lunares con el fin de estudiarlas en el planeta, se espera que la sonda regrese
-                        a mediados de diciembre, además China espera convertirse en la tercera nación a nivel mundial en lograr esta hazaña bastante compleja</p>
-                        <span class="news-url"><a href="https://www.bbc.com/mundo/noticias-55061666">Leer noticia completa >></a></span> </div>
-                </div>
+        </section>
+        <section id="team">
 
-            </div>
-        </div>
-
-    
-    </section>
-    <section id="team">
-        
-        <p class="section-text">Equipo</p>
-        <div class="col-5">
+            <p class="section-text">Equipo</p>
+            <div class="col-5">
                 <p>
                     <img src="img/yo.jpg">
                     <i style="font-size:150px"></i>
@@ -185,7 +195,7 @@
                     </p>
                 </div>
             </div>
-        <div class="col-5">
+            <div class="col-5">
                 <p>
                     <img src="img/compa.jpg">
                     <i style="font-size:150px"></i>
@@ -257,58 +267,61 @@
                     </p>
                 </div>
             </div>
-    
-    </section>
 
-    <footer class="footer">
-        <p class="section-text">Quienes somos</p>
-        <div class="col-6">
-            <p>
+        </section>
 
-                <i class="fas fa-book" style="font-size:150px"></i>
-            </p>
-            <div class="service-content">
+        <footer class="footer">
+            <p class="section-text">Quienes somos</p>
+            <div class="col-6">
+                <p>
 
-                <h2>
-                    Contactános<br>
-                    Foulard Software
-                </h2>
-                <p class="service-text.members">
-                    foulard.software@enterprises.cor.co<br>
-                    Direccion: Cr 24 #32B-125 Cali<br>
-                    Tel: 731 20 89<br>
-                    Fax: 12-34567<br>
-                    Repositorio Github:https://github.com/AlejandraRo/semana-1-133.git<br>
-                    
-                    
+                    <i class="fas fa-book" style="font-size:150px"></i>
                 </p>
+                <div class="service-content">
+
+                    <h2>
+                        Contactános<br>
+                        Foulard Software
+                    </h2>
+                    <p class="service-text.members">
+                        foulard.software@enterprises.cor.co<br>
+                        Direccion: Cr 24 #32B-125 Cali<br>
+                        Tel: 731 20 89<br>
+                        Fax: 12-34567<br>
+                        Repositorio Github:https://github.com/AlejandraRo/semana-1-133.git<br>
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="col-6">
-            <p>
+            <div class="col-6">
+                <p>
 
-                <i class="fas fa-book-reader" style="font-size:150px"></i>
-            </p>
-            <div class="service-content">
-
-                <h2>
-                    Nuestro personal
-                </h2>
-                <p class="service-text.members">
-                    Alejandra Rosero-lejanamar@gmail.com<br>
-                    Sebastián Aristizábal-aristizabal99@hotmail.com<br>
-                    Juan Diego Quintero-jdquinterocg@gmail.com<br>
-                    Nicolas Figueroa-nicolasfigb@gmail.com<br>
-                    Deiber Alejandro-deiberm@hotmail.com<br>
-                    <br>
-
+                    <i class="fas fa-book-reader" style="font-size:150px"></i>
                 </p>
+                <div class="service-content">
+
+                    <h2>
+                        Nuestro personal
+                    </h2>
+                    <p class="service-text.members">
+                        Alejandra Rosero-lejanamar@gmail.com<br>
+                        Sebastián Aristizábal-aristizabal99@hotmail.com<br>
+                        Juan Diego Quintero-jdquinterocg@gmail.com<br>
+                        Nicolas Figueroa-nicolasfigb@gmail.com<br>
+                        Deiber Alejandro-deiberm@hotmail.com<br>
+                        <br>
+
+                    </p>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
     </div>
-</div>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
